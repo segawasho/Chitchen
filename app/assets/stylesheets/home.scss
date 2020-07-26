@@ -1,0 +1,48 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media(min-width:561px){
+
+
+// リセット
+*{
+  margin:0;
+  padding:0;
+  font-family: "Gill Sans", sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+}
+
+body{
+  padding-top: 65px;
+}
+
+textarea{
+  resize: none;
+}
+
+// ノウティス・アラート
+.flash {
+  padding: 10px 0;
+  color: white;
+  background: #9057FF;
+  text-align: center;
+  position: absolute;
+  top: 65px;
+  z-index: 10;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+  font-size: 18px;
+}
+
+
+}
